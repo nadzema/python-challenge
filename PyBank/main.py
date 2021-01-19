@@ -13,7 +13,7 @@ with open(csvpath) as csvfile:
     
     #print(csvheader)
 
-#Adding Total Months
+#Adding Total Months to list
     for row in csvreader:
         months.append(row[0])
         net_total.append(row[1])
